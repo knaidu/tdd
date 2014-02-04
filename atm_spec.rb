@@ -15,7 +15,7 @@
 ## If there is not enough money in the account to complete the transaction, output the current bank balance.
 ##
 
-require 'atm.rb'
+require './atm.rb'
 
 describe 'withdraw' do
   context 'with valid value and total' do
